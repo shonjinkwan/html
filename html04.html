@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하이퍼링크 요소</title>
+    <style>
+    .wrap { width: 800px; height: 400px; margin: 50px auto;}
+    #footer { height: 400px; background-color: deeppink;}
+    #header { heigt: 400px; background-color:firebrick;}
+    </style>
+</head>
+<body>
+<header id="header">
+    여기는 헤더 영역
+</header>
+    <div class="wrap">
+        <h2>기본 하이퍼링크</h2>
+        <a href="html03.html" title="연습문서3번으로">내부문서인 연습문서3번으로 이동</a>
+    </div>
+<div class="wrap">
+    <h2>기본 하이퍼링크2</h2>
+    <a href="http://www.naver.com" target="_blank">(외부사이트)네이버 사이트로 이동</a>
+</div>
+<div class="wrap">
+    <h2>푸터로 이동</h2>
+    <a href=#footer">푸터로 이동</a>
+    <p>네임앵커기능 : 현재 페이지의 특정 영역으로 이동</p>
+    <p># :아이디, .(마침표) :클래스</p>
+</div>
+
+<div class="wrap">
+    <h2>이메일 보내기 하이퍼링크</h2>
+    <a href="mailto:wlsrhks1112@naver.com">진간찡에게 메일보내기</a>
+</div>
+<div class= "wrap">
+    <h2>전화걸기 하이퍼링크</h2>
+    <a href="tel:01024695105">징간찡에게 전화걸기</a>
+</div>
+<div class="wrap">
+    <h2>문자보내기 하이퍼링크- 모바일 전용</h2>
+    <a href="sms:01024695105">징간찡에게 문자보내기</a>
+</div>
+<footer id="footer">
+    <h2>푸터</h2>
+    <a href="#" style="color:firebrick,font size: 20px;">문서의 최상단으로</a>
+</footer>
+</body>
+</html>
